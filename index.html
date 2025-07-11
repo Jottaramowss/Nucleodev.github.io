@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nucleo.dev | Especialistas em Front-end e Back-end</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero with-bg-image">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Nucleo<span>.dev</span></a>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Transformamos ideias em <span>soluções digitais</span></h1>
+            <p>Um especialista em front-end e outro em back-end trabalhando juntos para criar experiências web excepcionais</p>
+            <a href="#contact" class="btn">Fale Conosco</a>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Somos a Nucleo.dev, uma dupla de desenvolvedores especializados com um foco em front-end e outro em back-end. Combinamos nossas habilidades complementares para entregar projetos que unem design atraente com funcionalidades robustas.</p>
+                    <div class="team-members">
+                        <div class="member">
+                            <h3><i class="fas fa-laptop-code"></i> Front-end</h3>
+                            <p>Especialista em interfaces e experiência do usuário</p>
+                            <p>5+ anos de experiência</p>
+                        </div>
+                        <div class="member">
+                            <h3><i class="fas fa-server"></i> Back-end</h3>
+                            <p>Especialista em lógica de negócios e bancos de dados</p>
+                            <p>6+ anos de experiência</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Equipe de desenvolvimento">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Nossas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Front-end</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3/Sass</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-react"></i> React.js</li>
+                        <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Back-end</h3>
+                    <ul>
+                        <li><i class="fab fa-node-js"></i> Node.js</li>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <li><i class="fas fa-database"></i> PostgreSQL</li>
+                        <li><i class="fab fa-python"></i> Python/Django</li>
+                        <li><i class="fas fa-server"></i> API REST</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Ferramentas</h3>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git/GitHub</li>
+                        <li><i class="fab fa-docker"></i> Docker</li>
+                        <li><i class="fab fa-aws"></i> AWS</li>
+                        <li><i class="fas fa-terminal"></i> CLI</li>
+                        <li><i class="fas fa-tasks"></i> Agile/Scrum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Nosso Portfólio</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="frontend">Front-end</button>
+                <button class="filter-btn" data-filter="backend">Back-end</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="fullstack">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projeto 1">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Completo</h3>
+                        <p>Plataforma de vendas com painel administrativo</p>
+                        <a href="#" class="portfolio-link">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="frontend">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Projeto 2">
+                    <div class="portfolio-overlay">
+                        <h3>Landing Page Moderna</h3>
+                        <p>Design responsivo e interativo</p>
+                        <a href="#" class="portfolio-link">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="backend">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projeto 3">
+                    <div class="portfolio-overlay">
+                        <h3>API de Gerenciamento</h3>
+                        <p>Sistema de backend escalável</p>
+                        <a href="#" class="portfolio-link">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fullstack">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Projeto 4">
+                    <div class="portfolio-overlay">
+                        <h3>Sistema de Agendamento</h3>
+                        <p>Aplicação completa com calendário</p>
+                        <a href="#" class="portfolio-link">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Vamos Trabalhar Juntos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p><i class="fas fa-envelope"></i> contato@nucleo.dev</p>
+                    <p><i class="fas fa-phone"></i> (XX) XXXX-XXXX</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Assunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Nucleo.dev - Especialistas em Front-end e Back-end</p>
+            <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
